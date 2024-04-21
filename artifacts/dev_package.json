@@ -1,0 +1,270 @@
+{
+	"id": "1d063863-5ccb-42c8-a7df-323605fe1ee3",
+	"createdAt": "2021-03-08T16:10:37.000Z",
+	"createdBy": "admin",
+	"git": {
+		"remote": "https://github.com/neptune-software/elearning-integration-test.git",
+		"targetServers": [],
+		"testServers": []
+	},
+	"name": "elearning-dev",
+	"description": "Package for developing elearning content",
+	"ver": "24.04.21.2019",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "aec2c73b-b9b5-45f9-a181-23edc445e82d",
+			"application": "3fieldworkerinspect",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "1d063863-5ccb-42c8-a7df-323605fe1ee3"
+			}
+		},
+		{
+			"id": "773eb49a-0788-4bb9-a019-f8b083251255",
+			"application": "wf_details_embedded_app",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "1d063863-5ccb-42c8-a7df-323605fe1ee3"
+			}
+		},
+		{
+			"id": "3c9af25e-4fc2-4dec-978e-fbb7d45b603b",
+			"application": "5analyticsapp",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "1d063863-5ccb-42c8-a7df-323605fe1ee3"
+			}
+		},
+		{
+			"id": "3323d8a7-477c-472c-ae04-7ad5095b63d0",
+			"application": "1createnewequipment",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "1d063863-5ccb-42c8-a7df-323605fe1ee3"
+			}
+		},
+		{
+			"id": "3080f44c-3e82-4992-bb4c-e39be159338a",
+			"application": "2viewandeditequipment",
+			"title": "",
+			"description": "For the eLearning package",
+			"package": {
+				"id": "1d063863-5ccb-42c8-a7df-323605fe1ee3"
+			}
+		},
+		{
+			"id": "2b9790d7-bc4a-ec11-981f-0050f2794553",
+			"application": "3fieldworkerinspect_offline_version",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "1d063863-5ccb-42c8-a7df-323605fe1ee3"
+			}
+		}
+	],
+	"api": [
+		{
+			"id": "fd2d84da-f11a-ec11-ae72-dc9840105a9f",
+			"name": "CoreAPI Security_Group eLearning",
+			"description": "Used to get a list of the FieldWorkers",
+			"apiGroup": null
+		},
+		{
+			"id": "c2c34e8b-3148-4020-8791-8f7b3cec84b6",
+			"name": "inspectionStats",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "8d54547d-aff9-4e0a-ba13-df649da7b78a",
+			"name": "Equipment Check Server Scripts",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "51dcdbec-93ff-4733-b351-dcead0a6e34f",
+			"name": "API inspections",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "14a2137e-9e64-4383-9848-8e468f3834d6",
+			"name": "API equipment",
+			"description": null,
+			"apiGroup": null
+		}
+	],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [
+		{
+			"id": "a3c973ca-0816-ec11-ae72-0050f255283a",
+			"name": "inspections",
+			"description": null
+		},
+		{
+			"id": "3299afd2-0816-ec11-ae72-0050f255283a",
+			"name": "equipment",
+			"description": null
+		}
+	],
+	"jsclass": [
+		{
+			"id": "f5c61a24-229b-41ae-b0f0-f25e36b7db3a",
+			"name": "Get Field Worker Tasks",
+			"description": null
+		},
+		{
+			"id": "f158fd21-5b80-ed11-9f60-0022489e239a",
+			"name": "CreateLotsOfEquipment",
+			"description": null
+		},
+		{
+			"id": "cff149ef-ad51-4e96-b14c-c62e9a568ee9",
+			"name": "approvedWF",
+			"description": null
+		},
+		{
+			"id": "66743392-bddd-480a-bee9-2471e4f1e22c",
+			"name": "Calculate days_until_check",
+			"description": null
+		},
+		{
+			"id": "65b01aab-2565-4427-b37f-6077dca7bf86",
+			"name": "rejectedWF",
+			"description": null
+		},
+		{
+			"id": "5f5599ee-5a80-ed11-9f60-0022489e239a",
+			"name": "CreateInspectionStats",
+			"description": null
+		}
+	],
+	"jsscript_group": [
+		{
+			"id": "e891cad6-6eb4-4711-b05e-dd1234c0cbff",
+			"name": "EquipmentCheckupScripts",
+			"description": null
+		},
+		{
+			"id": "089a48c6-6626-4c48-aade-68129c29a97b",
+			"name": "elearningWFScript",
+			"description": null
+		}
+	],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [
+		{
+			"id": "bdaec96d-680b-49db-a058-e022e4b4fb58",
+			"description": null,
+			"name": "1AddEquipment"
+		},
+		{
+			"id": "b2d8b76e-6d1b-4c93-a515-6b5cf9f05cfa",
+			"description": null,
+			"name": "3FieldWorkerInspect - Offline"
+		},
+		{
+			"id": "9e3d4088-63cd-4196-9f1f-6249c7b66f60",
+			"description": null,
+			"name": "2ViewAndEditEquipment_v2"
+		},
+		{
+			"id": "821dfb5a-0e3b-ec11-981f-0050f2794553",
+			"description": null,
+			"name": "Maintenance_Video"
+		},
+		{
+			"id": "7ddc995c-0e80-eb11-85aa-0003ff1e43fb",
+			"description": null,
+			"name": "MY INBOX"
+		},
+		{
+			"id": "20d64b6a-2f72-4ce4-aa7d-00c53b29e20e",
+			"description": "",
+			"name": "Maintenance Status"
+		},
+		{
+			"id": "0516c7ed-6910-4343-8d07-3e4115a6e585",
+			"description": null,
+			"name": "3FieldWorkerInspect"
+		}
+	],
+	"category": [
+		{
+			"id": "9881522d-c327-4ee7-8627-b31a8e879da7",
+			"description": null,
+			"name": "All Apps"
+		},
+		{
+			"id": "3253ae3e-38cf-4b6a-82f7-1ff998820397",
+			"description": null,
+			"name": "Main Apps"
+		},
+		{
+			"id": "2827e03b-2676-4fb8-8140-1f2bdc5c892a",
+			"description": null,
+			"name": "Manager Apps"
+		}
+	],
+	"launchpad": [
+		{
+			"id": "e13bae95-5fd0-4e1c-a48c-a8771bfda440",
+			"name": "eLearning Launchpad",
+			"description": null
+		}
+	],
+	"certificates": [],
+	"role": [
+		{
+			"id": "29fb0de4-c31a-ec11-ae72-dc9840105a9f",
+			"name": "FieldWorkers",
+			"description": null
+		}
+	],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [
+		{
+			"id": "429dc3f7-4ee3-ed11-9f73-000d3a672630",
+			"name": "FieldWorkers",
+			"description": ""
+		}
+	],
+	"script_scheduler": [],
+	"wf_definition": [
+		{
+			"id": "c90c723a-682f-ed11-a27c-0050f27989a1",
+			"title": "Inspection Approval",
+			"subTitle": null
+		}
+	],
+	"connector": [],
+	"events": [],
+	"code_snippets": [],
+	"wf_determination": [
+		{
+			"id": "8ffb1515-f8fc-450d-b751-9d519470e39f",
+			"name": "eLearning-Inspection Approvers",
+			"description": null
+		}
+	],
+	"wf_taskaction": [
+		{
+			"id": "90da28be-1e6e-46bb-a1df-2549d26ccb61",
+			"name": "eLearning-Inspection Approve",
+			"description": null
+		}
+	]
+}

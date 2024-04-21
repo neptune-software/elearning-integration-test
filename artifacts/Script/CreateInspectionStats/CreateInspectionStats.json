@@ -1,0 +1,32 @@
+{
+	"id": "5f5599ee-5a80-ed11-9f60-0022489e239a",
+	"createdAt": "2022-12-20T11:39:23.460Z",
+	"createdBy": "lloyd",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "A3C973CA-0816-EC11-AE72-0050F255283A",
+			"name": "inspections",
+			"contextname": "inspections"
+		},
+		{
+			"id": "a3c973ca-0816-ec11-ae72-0050f255283a",
+			"name": "inspections",
+			"contextname": "inspections"
+		}
+	],
+	"apis": [],
+	"name": "CreateInspectionStats",
+	"ver": "24.04.19.1034",
+	"description": null,
+	"folder": null,
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "e891cad6-6eb4-4711-b05e-dd1234c0cbff",
+	"package": "1d063863-5ccb-42c8-a7df-323605fe1ee3"
+}
