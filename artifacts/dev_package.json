@@ -12,6 +12,7 @@
 	"ver": "24.04.23.0950",
 	"enableCICD": true,
 	"excludeTemplateFiles": false,
+	"roles": [],
 	"apps": [
 		{
 			"id": "aec2c73b-b9b5-45f9-a181-23edc445e82d",
