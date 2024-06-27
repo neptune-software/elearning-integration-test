@@ -9,7 +9,7 @@
 	},
 	"name": "elearning-dev",
 	"description": "Package for developing elearning content",
-	"ver": "24.04.23.0950",
+	"ver": "24.06.27.1202",
 	"enableCICD": true,
 	"excludeTemplateFiles": false,
 	"roles": [],

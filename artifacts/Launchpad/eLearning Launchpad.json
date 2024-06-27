@@ -130,6 +130,8 @@
 	"pwa_customImageIos": null,
 	"pwa_customImageAndroidOld": null,
 	"pwa_customImageAndroidNew": null,
+	"pwa_desktopScreenshotWide": null,
+	"pwa_desktopScreenshotNarrow": null,
 	"pwa_displayMode": "fullscreen",
 	"pwa_themeColor": "rgb(255,255,255)",
 	"pwa_backgroundColor": "rgb(255,255,255)",
