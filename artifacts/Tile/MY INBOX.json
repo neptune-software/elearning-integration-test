@@ -24,6 +24,8 @@
 	"icon": "",
 	"backgroundType": null,
 	"backgroundColor": "",
+	"tileLayoutLight": null,
+	"tileLayoutDark": null,
 	"backgroundShade": "",
 	"tileApplication": "planet9_inbox_tile",
 	"hideHeaderL": false,

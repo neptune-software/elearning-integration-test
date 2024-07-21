@@ -33,6 +33,8 @@
 	"icon": "",
 	"backgroundType": null,
 	"backgroundColor": null,
+	"tileLayoutLight": null,
+	"tileLayoutDark": null,
 	"backgroundShade": null,
 	"tileApplication": null,
 	"hideHeaderL": false,
