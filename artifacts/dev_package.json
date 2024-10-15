@@ -9,7 +9,7 @@
 	},
 	"name": "elearning-dev",
 	"description": "Package for developing elearning content",
-	"ver": "24.10.08.1034",
+	"ver": "24.10.15.1212",
 	"enableCICD": true,
 	"excludeTemplateFiles": false,
 	"roles": [],
@@ -253,5 +253,6 @@
 			"name": "eLearning-Inspection Approve",
 			"description": null
 		}
-	]
+	],
+	"theme_ui5": []
 }
