@@ -69,7 +69,14 @@
 	],
 	"config": {
 		"enhancement": "",
-		"languages": []
+		"languages": [],
+		"showAccessibilityFocusIndicator": true,
+		"pincode": false,
+		"pincodeTries": 5,
+		"pincodeLength": 4,
+		"pincodeKeyIterations": 40000,
+		"enableWebAuth": false,
+		"autolock": 0
 	},
 	"enhancement": [],
 	"name": "eLearning Launchpad",
@@ -125,7 +132,7 @@
 	"searchEnableShadeCalc": null,
 	"usedEnableShadeCalc": null,
 	"enableTrace": false,
-	"ver": "23.7.31.1729",
+	"ver": "24.11.15.1715",
 	"pwa_enable": false,
 	"pwa_customImageIos": null,
 	"pwa_customImageAndroidOld": null,
@@ -140,6 +147,7 @@
 	"pwa_backgroundColor": "rgb(255,255,255)",
 	"passwordResetEmail": null,
 	"activationCodeEmail": null,
+	"noSubmenuHover": false,
 	"package": "1d063863-5ccb-42c8-a7df-323605fe1ee3",
 	"cat": [
 		{

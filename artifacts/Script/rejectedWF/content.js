@@ -2,7 +2,6 @@
 log.info(wfData);
 // wfData.objectKey = Equipment Part Number
 
-
 // First, grab the data for the given inspection
 const inspection = await entities.inspections.createQueryBuilder()
     .where("part_number = :part_number", {part_number: wfData.objectKey})
@@ -22,7 +21,7 @@ await table.createQueryBuilder().update()
 log.info("Updated currently Submitted inspection to Rejected");
 
 
-var uuidGenerator = modules.uuid.v4;
+
 // CREATE A NEW Inspection with status "Assigned"
 // But with blank fields for the 4 inspection data points
 await entities.inspections.createQueryBuilder()
@@ -40,7 +39,7 @@ await entities.inspections.createQueryBuilder()
         "updatedAt":Date.now(),
         "createdBy":"system",
         "updatedBy":"system",
-        "id":uuidGenerator() // <- Here we use the uuidGeneartor module
+        "id":uuid()
         })
     .execute();
 

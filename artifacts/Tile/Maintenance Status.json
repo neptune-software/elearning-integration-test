@@ -2,6 +2,8 @@
 	"id": "20d64b6a-2f72-4ce4-aa7d-00c53b29e20e",
 	"createdAt": "2021-04-08T16:13:30.000Z",
 	"createdBy": "lloyd",
+	"lightTileLayouts": null,
+	"darkTileLayouts": null,
 	"translation": [
 		{
 			"language": "DE",
@@ -95,21 +97,9 @@
 	"sapICFNode": null,
 	"actionType": "A",
 	"cockpitTile": false,
-	"cardFilterBlur": null,
-	"enableFilterBrightness": false,
-	"cardFilterBrightness": null,
-	"enableFilterGrayscale": false,
-	"cardFilterGrayscale": null,
-	"enableFilterHuerotate": false,
-	"cardFilterHuerotate": null,
-	"enableFilterInvert": false,
-	"cardFilterInvert": null,
-	"enableFilterOpacity": false,
-	"cardFilterOpacity": null,
-	"enableFilterSaturate": false,
-	"cardFilterSaturate": null,
-	"cardBackgroundMaskImage": null,
-	"cardBackgroundMaskCustom": null,
+	"cardImageDarkNone": false,
+	"imageDarkNone": false,
+	"oneTileLayout": false,
 	"package": "1d063863-5ccb-42c8-a7df-323605fe1ee3",
 	"roles": []
 }
